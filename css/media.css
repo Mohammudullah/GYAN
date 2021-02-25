@@ -1,0 +1,432 @@
+@media (max-width: 1600px) and (min-width: 1400px) {
+
+    /* banner part start */
+
+   #banner .image img {
+        height: 500px;
+        object-fit: cover;
+   }
+   #banner .right {
+        right: 0px !important;
+   }
+   #banner .left {
+        left: 0px !important;
+   }
+   #banner .right, #banner .left {
+    transform: scale(.9) translateY(-50%);
+    -webkit-transform: scale(.9) translateY(-50%);
+    -moz-transform: scale(.9) translateY(-50%);
+    -ms-transform: scale(.9) translateY(-50%);
+    -o-transform: scale(.9) translateY(-50%);
+}
+
+    /* banner part end */
+
+    /* Our courses part start */
+
+    #courses .right-arrow, #courses .left-arrow {
+        display: none !important;
+    }
+
+    /* Our courses part end */
+    /* Faq part start */
+
+    #faq .arrow {
+        left: -40px;
+    }
+
+    /* Faq part end */
+}
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+
+    /* Our courses part start */
+    #courses .right-arrow {
+        right: -80px;
+    }
+    #courses .left-arrow {
+        left: -80px;
+    }
+    /* Our courses part end */
+    /* banner part start */
+
+    #banner .image img {
+        height: 450px;
+        object-fit: cover;
+    }
+    #banner .right, #banner .left {
+        transform: scale(.9) translateY(-50%);
+        -webkit-transform: scale(.9) translateY(-50%);
+        -moz-transform: scale(.9) translateY(-50%);
+        -ms-transform: scale(.9) translateY(-50%);
+        -o-transform: scale(.9) translateY(-50%);
+    }
+    #banner a {
+        margin-bottom: 100px;
+    }
+
+    /* banner part end */
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    /* banner part start */
+
+    #banner .image img {
+        height: 450px;
+        object-fit: cover;
+    }
+    #banner .right, #banner .left {
+        transform: scale(.9) translateY(-50%);
+        -webkit-transform: scale(.9) translateY(-50%);
+        -moz-transform: scale(.9) translateY(-50%);
+        -ms-transform: scale(.9) translateY(-50%);
+        -o-transform: scale(.9) translateY(-50%);
+    }
+    #banner a {
+        margin-bottom: 100px;
+    }
+
+    /* banner part end */
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    /* navbar part start */
+
+    .navbar {
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+    .navbar-brand {
+        width: 15%;
+    }
+    .navbar .nav-item {
+        padding-top: 30px;
+    }
+    .navbar .get-started {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* navbar part end */
+    /* banner part start */
+
+    #banner .image img {
+        height: 450px;
+        object-fit: cover;
+    }
+    #banner .right, #banner .left {
+        display: none !important;
+    }
+    #banner a {
+        margin-bottom: 100px;
+    }
+
+    /* banner part end */
+    /* Our courses part start */
+
+    #courses .right-arrow, #courses .left-arrow {
+        display: none !important;
+    }
+
+    /* Our courses part end */
+    /* Teachers part start */
+
+    #teachers {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    #teachers .teachers-item {
+        padding-bottom: 120px;
+    }
+
+    /* Teachers part end */
+    /* Blogs part start */
+
+    #blogs .icon {
+        display: none;
+    }
+    #blogs .date {
+        display: none!important;
+    }
+
+    /* Blogs part end */
+
+}
+@media (max-width: 767px) and (min-width: 576px) {
+
+    /*prenav section start */
+    #prenav {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /*prenav section end */
+    /* navbar part start */
+
+    .navbar {
+        padding-top: 5px!important;
+        padding-bottom: 10px!important;
+    }
+   .navbar-brand {
+        width: 20%;
+    }
+    .navbar .nav-item {
+        padding-top: 30px;
+    }
+    .navbar .get-started {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* navbar part end */
+    /* banner part start */
+
+    #banner .image img {
+        height: 600px;
+        object-fit: cover;
+    }
+    #banner h5 {
+        font: 400 40px/50px 'Arimo', sans-serif;
+    }
+    #banner h1 {
+        font: 700 50px/58px 'Arimo', sans-serif;
+    }
+    #banner .right, #banner .left {
+        display: none !important;
+    }
+
+    /* banner part end */
+    /* Counter part start */
+
+    #counter .counter {
+        font: 700 30px/33px 'Arimo', sans-serif;
+    }
+    #counter p {
+        font: 400 20px/24px 'Arimo', sans-serif;
+    }
+
+    /* Counter part end */
+    /* Our courses part start */
+
+    #courses .right-arrow, #courses .left-arrow {
+        display: none !important;
+    }
+
+    /* Our courses part end */
+    /* events part start */
+
+    #events .slider-wrap .button {
+        margin-top: 5%;
+
+    }
+
+    /* events part end */
+    /* teachers part start */
+
+    #teachers {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    #teachers .teachers-item {
+        padding-bottom: 120px;
+    }
+
+    /* teachers part end */
+}
+@media (max-width: 575.98px){
+
+    /* prenav section start */
+
+    #prenav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* prenav section end */
+    /* navbar part start */
+
+    .navbar {
+        position: relative;
+        padding-top: 5px!important;
+        padding-bottom: 10px!important;
+   }
+   .navbar-brand {
+        width: 25%;
+   }
+   .navbar .nav-item {
+        padding-top: 30px;
+   }
+   .navbar .get-started {
+        padding-left: 0px;
+        text-align: center;
+   }
+
+    /* navbar part end */
+    /* banner part start */
+
+    #banner .image img {
+        height: 600px;
+        object-fit: cover;
+    }
+    #banner h5 {
+        font: 400 25px/30px 'Arimo', sans-serif;
+    }
+    #banner h1 {
+        font: 700 35px/40px 'Arimo', sans-serif;
+    }
+    #banner .right, #banner .left {
+        display: none !important;
+    }
+    #banner a {
+        font: 400 16px/20px 'Arimo', sans-serif;
+        padding: 15px 15px 15px 15px;
+        margin-bottom: 100px;
+    }
+
+    /* banner part end */
+    /* service item part start */
+
+    #service-item {
+        margin-top: -100px;
+    }
+
+    /* service item part end */
+    /* About us part start */
+
+    #about-us {
+        padding-top: 50px;
+    }
+    .section-header {
+        padding-bottom: 50px;
+    }
+    #about-us .about-info a {
+        padding: 12px 14px;
+        font: 400 16px/20px 'Arimo', sans-serif;
+    }
+
+    /* About us part end */
+    /* Counter part start */
+
+    #counter .counter {
+        font: 700 30px/33px 'Arimo', sans-serif;
+    }
+    #counter p {
+        font: 400 20px/24px 'Arimo', sans-serif;
+    }
+
+    /* Counter part end */
+    /* Our courses part start */
+    #courses {
+        padding-top: 50px;
+    }
+    #courses .right-arrow, #courses .left-arrow {
+        display: none !important;
+    }
+    #courses .slider-item .info .picture {
+        width: 50px;
+        height: 50px;
+    }
+    #courses .info .name h6 {
+        font: 400 13px/15px 'Arimo', sans-serif;
+    }
+    #courses .info .name span {
+        font: 400 11px/11px 'Arimo', sans-serif;
+    }
+    #courses .info .rat-icon i {
+        font-size: 11px;
+    }
+    #courses .info .ratings span {
+        font: 400 12px/13px 'Arimo', sans-serif;
+    }
+    #courses .slider-item h4 {
+        font: 400 20px/24px 'Arimo', sans-serif;
+    }
+    #courses .slider-item .course-info span {
+        color: #999999;
+        font: 400 11px/15px 'Arimo', sans-serif;
+    }
+    #courses .slider-item .course-info {
+        text-align: center;
+    }
+
+    /* Our courses part end */
+    /* events part start */
+
+    #events {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #events .pb-calendar {
+        padding: 40px 20px 15px 20px;
+        background: #F5F5F5;
+    }
+    #events .year-month-frame {
+        font: 700 16px/20px 'Arimo', sans-serif;
+    }
+    #events .row-dayname .col {
+        padding: 15px 0;
+        font: 400 14px/17px 'Arimo', sans-serif;
+    }
+    #events .row-day .col {
+        font: 400 16px/20px 'Arimo', sans-serif;
+        padding: 15px 0;
+    }
+    #events .slider-wrap span {
+        margin-right: 10px;
+    }
+
+    /* events part end */
+    /* Faq part start */
+
+    #faq .faq-sub-slider-main h5 span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    /* Faq part end */
+    /* Teachers part start */
+
+    #teachers {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    #teachers .teachers-item {
+        padding-bottom: 120px;
+    }
+
+    /* Teachers part end */
+    /* Blogs part start */
+
+    #blogs .icon {
+        display: none;
+    }
+    #blogs .date {
+        display: none!important;
+    }
+
+    /* Blogs part end */
+    /* Bact to top button start */
+
+    .back-to-top {
+        transform: scale(.9);
+        bottom: 40px;
+        right: 15px;
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    /* Bact to top button end */
+    @media (max-width: 575.98px) and (min-width: 480px){
+        #events .row-dayname .col {
+            padding: 22px 0;
+            font: 400 16px/17px 'Arimo', sans-serif;
+        }
+        #events .row-day .col {
+            font: 400 16px/20px 'Arimo', sans-serif;
+            padding: 22px 0;
+        }
+    }
+}
